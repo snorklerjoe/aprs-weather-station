@@ -1,0 +1,30 @@
+Questionable use of curly braces in "i1 reg 0 sine(-10.24m 10.24m {freq} 0 0 0)"
+    Error: undefined symbol in: "[freq]"
+Questionable use of curly braces in "i2 comp 0 sine(-10.24m 10.24m {freq} {1/freq/2} 0 0)"
+    Error: undefined symbol in: "[freq]"
+Questionable use of curly braces in "i2 comp 0 sine(-10.24m 10.24m (freq) {1/freq/2} 0 0)"
+    Error: undefined symbol in: "1/[freq]/2"
+Circuit: * Y:\git\weather-station\AD9850.asc
+
+Error on line 2 : i1 reg 0 sine(-10.24m 10.24m (freq) 0 0 0)
+	 Unknown parameter "freq"
+Error on line 22 : i2 comp 0 sine(-10.24m 10.24m (freq) (1/freq/2) 0 0)
+	 Unknown parameter "freq"
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Sep 24 19:34:20 2021
+Total elapsed time: 0.051 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 17
+fillins = 1
+solver = Normal
+Matrix Compiler1:      36 opcodes
+Matrix Compiler2: 1.07 KB object code size

@@ -1,0 +1,15 @@
+* Z:\home\joseph\projects\weather-station\hardware\ltspice\Draft4.asc
+C1 N002 0 330 Rser=.01
+L1 N002 0 2.4n Rser=.1
+C2 N003 0 470p Rser=.01
+L2 N003 0 2.4n Rser=.1
+C3 P001 N002 1p Rser=.01
+L3 P001 N003 1.2µ Rser=.1
+L4 N004 N005 1.2µ Rser=.1
+C4 N004 N003 1.5p Rser=.01
+R1 N005 0 50
+V1 N001 0 AC 1 Rser=0
+R3 N002 N001 50
+.ac oct 100 100Meg 400Meg
+.backanno
+.end

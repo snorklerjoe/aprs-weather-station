@@ -1,0 +1,27 @@
+Questionable use of curly braces in ".model di_mmbth10 npn (is=1.26e-016 nf=1.00 bf={beta} vaf=114  ikf=24.3m ise=1.28p ne=2.00 br=4.00 nr=1.00  var=16.0 ikr=60.0m re=1.51 rb=6.05 rc=0.605  xtb=1.5 cje=6.27p vje=1.10 mje=0.500 cjc=2.02p vjc=0.300  mjc=0.300 tf=130p tr=27.4n eg=1.12 )"
+    Error: undefined symbol in: "[beta]"
+Circuit: * Y:\weather-station\ltspice\Draft2.asc
+
+.OP point found by inspection.
+
+
+Measurement "req1" FAIL'ed
+
+
+Date: Sat Nov 20 15:39:44 2021
+Total elapsed time: 0.346 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 80050
+traniter = 80050
+tranpoints = 40026
+accept = 40024
+rejected = 2
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 150 bytes object code size  0.6/0.5/[0.5]
+Matrix Compiler2: 321 bytes object code size  0.6/0.6/[0.5]
+

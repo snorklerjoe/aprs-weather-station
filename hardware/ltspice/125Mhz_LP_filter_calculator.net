@@ -1,0 +1,16 @@
+* Z:\home\joseph\projects\weather-station\hardware\ltspice\125Mhz_LP_filter_calculator.asc
+L1 N001 P001 33n Rser=0.75
+L2 P001 P002 120n Rser=0.65
+L3 P002 P003 96n Rser=0.16
+C1 P002 0 47p
+C2 P001 0 36p
+C3 P003 0 13p
+C4 N002 P003 470p
+R1 N002 0 50
+V1 N001 0 AC 1 Rser=50
+.ac dec 175 50Meg 300Meg
+.step param R 10 200 50
+.step param R2 10 200 50
+.net I(R1) V1
+.backanno
+.end
