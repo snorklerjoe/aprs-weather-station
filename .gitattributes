@@ -1,0 +1,3 @@
+*.plt linguist-generated
+*.asc linguist-language=LTspice Symbol
+*.mod linguist-vendored
