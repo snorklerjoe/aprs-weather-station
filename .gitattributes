@@ -1,3 +1,6 @@
 *.plt linguist-generated
-*.asc linguist-language=LTspice Symbol
+*.asc linguist-language=LTspice Symbol linguist-detectable
+*.kicad_pcb linguist-detectable
+*.kicad_sch linguist-detectable
+*.sch linguist-detectable
 *.mod linguist-vendored
